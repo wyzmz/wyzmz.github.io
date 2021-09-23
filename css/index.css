@@ -1,0 +1,276 @@
+body {
+    font: 500 .875em PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+    background-color: #07040e;
+    margin: 0
+}
+
+#canvas {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: none;
+}
+
+.content {
+    position: absolute;
+    z-index: 11;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.splash {
+    position: relative;
+}
+
+img#qq {
+    width: 128px;
+    background-size: cover;
+    border-radius: 200px;
+    box-shadow: 0px 0px 40px rgba(63, 81, 181, 0.72);
+    border: 3px solid #00a0ff;
+    opacity: 1;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 1.0s;
+}
+
+#qq:hover {
+    box-shadow: 0 0 10px #fff;
+    -webkit-box-shadow: 0 0 19px #fff;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.table-top {
+    margin-top: 5px;
+    border: 1px dashed #1B9AF7
+}
+
+[hidden], template {
+    display: none
+}
+
+img {
+    vertical-align: middle
+}
+
+@media print {
+    blockquote, img, pre, tr {
+        page-break-inside: avoid
+    }
+
+}
+
+.btn, .btn-danger.active, .btn-danger:active, .btn-default.active, .btn-default:active, .btn-info.active, .btn-info:active, .btn-primary.active, .btn-primary:active, .btn-warning.active, .btn-warning:active, .btn.active, .btn:active, .dropdown-menu > .disabled > a:focus, .dropdown-menu > .disabled > a:hover, .form-control, .navbar-toggle, .open > .dropdown-toggle.btn-danger, .open > .dropdown-toggle.btn-default, .open > .dropdown-toggle.btn-info, .open > .dropdown-toggle.btn-primary, .open > .dropdown-toggle.btn-warning {
+    background-image: none
+}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+a {
+    color: #0099d3;
+    text-decoration: none
+}
+
+a:focus, a:hover {
+    color: #00618a;
+    text-decoration: underline
+}
+
+.container, .container-fluid {
+    margin-right: auto;
+    margin-left: auto
+}
+
+.container, .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.nav > li, .nav > li > a {
+    display: block;
+    position: relative
+}
+
+.navbar-header {
+    float: left
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030
+}
+
+.navbar-brand {
+    float: left;
+    padding: 15px 20px;
+    font-size: 14px;
+    line-height: 20px;
+    height: 50px
+}
+
+header .navbar.navbar-default .navbar-brand {
+    color: #FFF;
+    height: 40px;
+    line-height: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+    width: 240px
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -20px
+}
+
+
+.navbar-nav > li {
+    float: left
+}
+
+.navbar-right {
+    float: right !important;
+    float: right;
+    margin-right: -20px
+}
+
+header .navbar.navbar-default {
+    border-bottom: 0 !important;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-top: 2px solid #1688c0;
+    font-size: 13px;
+    margin-bottom: 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false) !important
+}
+
+.button {
+    color: #666;
+    background-color: #EEE;
+    border-color: #EEE;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 40px;
+    margin: 0;
+    display: inline-block;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+
+.button-border, .button-border-thin, .button-border-thick {
+    background: none;
+    border-width: 2px;
+    border-style: solid;
+    line-height: 36px;
+}
+
+.button-border:hover, .button-border-thin:hover, .button-border-thick:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.button-border:active, .button-border-thin:active, .button-border-thick:active, .button-border.active, .active.button-border-thin, .active.button-border-thick, .button-border.is-active, .is-active.button-border-thin, .is-active.button-border-thick {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.button-border.button-primary, .button-primary.button-border-thin, .button-primary.button-border-thick,
+.button-border-thin.button-primary,
+.button-border-thick.button-primary {
+    color: #1B9AF7;
+}
+
+header .navbar.navbar-default .navbar-collapse .navbar-nav {
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+header .navbar.navbar-default .navbar-right > li > a {
+    color: #eee
+}
+
+header .navbar.navbar-default .navbar-right > li > a:hover {
+    color: #fff
+}
+
+.home .jumbotron {
+    background: #010101;
+    background-size: 40% auto, 40% auto, 60% auto, auto;
+    color: #e4e4e4;
+    margin: 0;
+    padding: 100px 0 110px;
+    position: relative;
+    text-align: center
+}
+
+.home .jumbotron .description {
+    margin: 46px auto 40px;
+    position: relative;
+    width: 55%
+}
+
+.home .jumbotron h1 {
+    background: -webkit-linear-gradient(#5feffe, #208bc9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #3bb1dc;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 1.2;
+    margin: 22px 0 0
+}
+
+@media (min-width: 768px) {
+    .home .jumbotron h1 {
+        font-size: 52px
+    }
+
+    .home p {
+        font-size: 19px
+    }
+
+    .navbar.navbar-default .navbar-right > li > a {
+        padding: 25px 15px 26px
+    }
+
+    @media (max-width: 991px) {
+        .login #login_error, .login .message {
+            text-align: center
+        }
+    }
+}
